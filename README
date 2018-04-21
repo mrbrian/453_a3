@@ -1,0 +1,59 @@
+CPSC453 - Assignment 3
+
+=== 1. EXECUTION: ===
+
+To compile the program, on the terminal enter the following commands:
+
+	qmake -project QT+=widgets
+	qmake
+	make
+
+To run the program, on the terminal enter the following command:
+
+	./a3
+
+=== 2. PROGRAM USE: ===
+
+File Menu
+	Open Model (CTRL-O)		- load a model
+	Open Submodel (CTRL-B)	- load a model and make it a child of the currently selected model
+	Open Texture (CTRL-T)	- load/apply a texture to the selected model
+	Reset Models (R)		- reset all model transformations
+	Reset View (V)	- reset view transformations
+	Reset All (A)	- reset all model/view transformations
+	Clear (C)		- clear all models
+	Quit (Q)		- quit application
+
+Draw Menu
+	Wireframe (W) 	- draw models in wireframe 
+	Face (F)		- draw models in face mode
+	Textured (T)	- draw models with textures
+	Normals Submenu
+		Face (CTRL-F)	- flat shading
+		Vertex (CTRL-V)	- smooth shading
+		Normals (N)		- display the normals of the current normal mode
+	Select Model (S) 	- model picking (not working)
+	
+Select Menu
+	Deselect (D) - deselects the currently selected model
+	Cycle (+) 	 - cycles the selection through all models
+	Select Model (1 - 9) - select a specific model
+	
+
+=== 4. FILES SUBMITTED: ===
+
+README
+main.cpp
+model.cpp
+model.h
+objModel.cpp
+objModel.h
+renderer.cpp
+renderer.h
+trackball.cpp
+trackball.h
+window.cpp
+window.h
+textured-phong.fs.glsl
+textured-phong.vs.glsl
+brian.yee_a3_1.png
