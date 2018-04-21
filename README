@@ -39,21 +39,3 @@ Select Menu
 	Cycle (+) 	 - cycles the selection through all models
 	Select Model (1 - 9) - select a specific model
 	
-
-=== 4. FILES SUBMITTED: ===
-
-README
-main.cpp
-model.cpp
-model.h
-objModel.cpp
-objModel.h
-renderer.cpp
-renderer.h
-trackball.cpp
-trackball.h
-window.cpp
-window.h
-textured-phong.fs.glsl
-textured-phong.vs.glsl
-brian.yee_a3_1.png
